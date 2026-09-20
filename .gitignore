@@ -1,0 +1,19 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+# Research data and generated experiment outputs
+/data/
+/results/
+/cache/
+*.fastq
+*.fastq.gz
+*.fasta
+*.fasta.gz
+*.fna
+*.fna.gz
+# Python and platform files
+__pycache__/
+.venv/
+.DS_Store
